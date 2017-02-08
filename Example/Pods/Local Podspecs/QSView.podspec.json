@@ -1,0 +1,22 @@
+{
+  "name": "QSView",
+  "version": "0.1.0",
+  "summary": "A short description of QSView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/QualiaSystemes/QSView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "QualiaSystemes": "technique@qualia.fr"
+  },
+  "source": {
+    "git": "https://github.com/QualiaSystemes/QSView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QSView/Classes/**/*"
+}

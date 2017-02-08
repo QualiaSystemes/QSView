@@ -1,0 +1,6 @@
+framework module QSView {
+  umbrella header "QSView-umbrella.h"
+
+  export *
+  module * { export * }
+}

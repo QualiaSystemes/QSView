@@ -1,0 +1,16 @@
+PODS:
+  - QSView (0.1.0)
+
+DEPENDENCIES:
+  - QSView (from `../`)
+
+EXTERNAL SOURCES:
+  QSView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QSView: 41d6f538a86c0b321db49bfcf93faa24ec71cdf3
+
+PODFILE CHECKSUM: c32aac6eae3b5634455062a28581ca9b98b2cd2a
+
+COCOAPODS: 1.2.0
