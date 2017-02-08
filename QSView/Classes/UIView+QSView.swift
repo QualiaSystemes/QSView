@@ -55,6 +55,28 @@ import UIKit
         }
     }
     
+    public func findFirstResponder() -> UIView? {
+        if self.isFirstResponder {
+            return self
+        }
+        
+        for subView: UIView in self.subviews {
+            let view: UIView? = subView.findFirstResponder()
+            if view != nil {
+                return view
+            }
+        }
+        
+        return nil
+    }
+    
+    public func findAndResignFirstResponder() {
+        let firstResponder: UIView? = self.findFirstResponder()
+        if firstResponder != nil {
+            firstResponder!.resignFirstResponder()
+        }
+    }
+    
     public func bindViewToBoundsWithConstraints(targetView: UIView) {
         targetView.translatesAutoresizingMaskIntoConstraints = false
         
