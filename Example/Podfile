@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSView_Example' do
+  pod 'QSView', :path => '../'
+
+  target 'QSView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
